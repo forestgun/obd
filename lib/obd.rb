@@ -1,5 +1,5 @@
 #require "serialport"
-require "hybridgroup-serialport"
+require "serialport"
 
 require_relative "obd/command"
 require_relative "obd/connection"
