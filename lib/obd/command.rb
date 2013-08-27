@@ -27,7 +27,7 @@ module OBD
 
     def self.pid
       {
-        "atrv" => [:battery_voltage, lambda {|x| x.to_s}]
+        "atrv" => [:battery_voltage, lambda {|x| x.to_s}], #PRUEBA _ AÑADI LA COMA
         "0100" => [:pids_supported_1]
       }
     end
